@@ -13,7 +13,7 @@ export default function CourseDashboard() {
 
   const [course, setCourse] = useState<any>(null);
   const [unlocked] = useLocalStorage<number[]>("unlockedCourses", []);
-  const [progress, setProgress] = useLocalStorage<Record<number, number[]>>(
+  const [progress] = useLocalStorage<Record<number, number[]>>(
     "progress",
     {}
   );
