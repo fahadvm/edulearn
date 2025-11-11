@@ -5,6 +5,8 @@ import Unlock from './pages/Unlock';
 import CourseDashboard from './pages/CourseDashboard';
 import DayContent from './pages/DayContent';
 import Profile from './pages/Profile';
+import About from './pages/About';
+import Contact from './pages/Contact';
 
 export default function App() {
   return (
@@ -17,6 +19,8 @@ export default function App() {
           <Route path="/course/:courseId" element={<CourseDashboard />} />
           <Route path="/course/:courseId/day/:day" element={<DayContent />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </BrowserRouter>

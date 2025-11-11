@@ -8,8 +8,8 @@ import {
 
 export default function Profile() {
     const [user, setUser] = useLocalStorage<{ name: string; xp: number }>(
-        "Enter your name",
-        { name: "Enter your name", xp: 0 }
+        "user",
+        { name: "User", xp: 0 }
     );
     const [completed] = useLocalStorage<any[]>("completedCourses", []);
     const [editing, setEditing] = useState(false);

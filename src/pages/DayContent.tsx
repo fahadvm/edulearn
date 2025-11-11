@@ -43,27 +43,25 @@ export default function DayContent() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white px-6 py-16 relative">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white px-4 sm:px-6 py-10 sm:py-16 overflow-hidden relative">
 
       {/* Background Glow */}
       <div className="absolute inset-0 -z-10">
-        <div className="absolute top-1/4 left-1/3 w-96 h-96 bg-cyan-500 mix-blend-multiply blur-3xl opacity-40 animate-pulse"></div>
-        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-pink-500 mix-blend-multiply blur-3xl opacity-40 animate-pulse animation-delay-2000"></div>
+        <div className="absolute top-1/4 left-1/3 w-60 h-60 sm:w-80 sm:h-80 md:w-96 md:h-96 bg-cyan-500 mix-blend-multiply blur-3xl opacity-40 animate-pulse"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-60 h-60 sm:w-80 sm:h-80 md:w-96 md:h-96 bg-pink-500 mix-blend-multiply blur-3xl opacity-40 animate-pulse animation-delay-2000"></div>
       </div>
 
-      <div className="max-w-4xl mx-auto backdrop-blur-2xl bg-white/10 border border-white/20 rounded-3xl p-8 shadow-2xl">
+      <div className="max-w-3xl mx-auto backdrop-blur-2xl bg-white/10 border border-white/20 rounded-2xl p-4 sm:p-6 md:p-8 shadow-2xl">
 
-        {/* Back Button */}
         <button
           onClick={() => navigate(`/course/${id}`)}
-          className="flex items-center gap-2 text-gray-300 hover:text-cyan-400 transition mb-6"
+          className="flex items-center gap-2 text-gray-300 hover:text-cyan-400 transition mb-4 sm:mb-6"
         >
           <ArrowLeftIcon className="w-5 h-5" /> Back to Course
         </button>
 
-        {/* Header */}
-        <div className="text-center mb-8">
-          <h1 className="text-4xl font-black bg-gradient-to-r from-cyan-400 to-pink-500 bg-clip-text text-transparent">
+        <div className="text-center mb-6 sm:mb-10">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-black bg-gradient-to-r from-cyan-400 to-pink-500 bg-clip-text text-transparent">
             Day {dayNum}: {course?.name}
           </h1>
           <p className="text-gray-300 mt-2 flex justify-center items-center gap-2">
