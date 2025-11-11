@@ -1,0 +1,444 @@
+[
+  {
+    "id": 1,
+    "name": "React Mastery Course",
+    "password": "react101",
+    "days": [
+      {
+        "day": 1,
+        "topics": [
+          { "title": "What is React?", "description": "A JavaScript library for building user interfaces using components." },
+          { "title": "JSX Basics", "description": "Write HTML-like syntax directly in JavaScript." }
+        ],
+        "task": "Create a Hello World component and render it."
+      },
+      {
+        "day": 2,
+        "topics": [
+          { "title": "Components", "description": "Reusable, self-contained pieces of UI." },
+          { "title": "Props", "description": "Pass data from parent to child components." }
+        ],
+        "task": "Build a reusable Card component with title and image props."
+      },
+      {
+        "day": 3,
+        "topics": [
+          { "title": "State Management", "description": "Track and update dynamic data in components." },
+          { "title": "useState Hook", "description": "Add reactive state to function components." }
+        ],
+        "task": "Create a counter with increment and decrement buttons."
+      },
+      {
+        "day": 4,
+        "topics": [
+          { "title": "useEffect Hook", "description": "Handle side effects like API calls and subscriptions." },
+          { "title": "Fetching Data", "description": "Load data from external APIs." }
+        ],
+        "task": "Fetch and display a list of users from JSONPlaceholder API."
+      },
+      {
+        "day": 5,
+        "topics": [
+          { "title": "Forms in React", "description": "Handle user input and form submissions." },
+          { "title": "Controlled Components", "description": "Sync form inputs with React state." }
+        ],
+        "task": "Build a login form with email and password validation."
+      },
+      {
+        "day": 6,
+        "topics": [
+          { "title": "React Router", "description": "Enable client-side navigation between pages." },
+          { "title": "Route Parameters", "description": "Dynamic segments in URLs." }
+        ],
+        "task": "Create a multi-page app with Home, About, and Contact routes."
+      },
+      {
+        "day": 7,
+        "topics": [
+          { "title": "Deployment", "description": "Publish your React app to the web." },
+          { "title": "Vercel & Netlify", "description": "Free platforms for hosting React apps." }
+        ],
+        "task": "Deploy your final project to Vercel."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "JavaScript Deep Dive",
+    "password": "jspro",
+    "days": [
+      {
+        "day": 1,
+        "topics": [
+          { "title": "Scope & Hoisting", "description": "How variables are resolved and initialized." },
+          { "title": "var vs let vs const", "description": "Differences in declaration and scoping." }
+        ],
+        "task": "Fix a hoisting bug in a given code snippet."
+      },
+      {
+        "day": 2,
+        "topics": [
+          { "title": "Closures", "description": "Functions that remember their lexical environment." },
+          { "title": "Private Variables", "description": "Encapsulate data using closures." }
+        ],
+        "task": "Create a counter module with private state."
+      },
+      {
+        "day": 3,
+        "topics": [
+          { "title": "Promises", "description": "Handle asynchronous operations." },
+          { "title": "async/await", "description": "Write clean asynchronous code." }
+        ],
+        "task": "Refactor callback hell into async/await."
+      },
+      {
+        "day": 4,
+        "topics": [
+          { "title": "ES6+ Features", "description": "Arrow functions, destructuring, spread." },
+          { "title": "Template Literals", "description": "String interpolation with backticks." }
+        ],
+        "task": "Rewrite legacy code using modern ES6+ syntax."
+      },
+      {
+        "day": 5,
+        "topics": [
+          { "title": "Modules", "description": "Organize code into reusable files." },
+          { "title": "Import/Export", "description": "Share code between files." }
+        ],
+        "task": "Split a large script into multiple modules."
+      },
+      {
+        "day": 6,
+        "topics": [
+          { "title": "Error Handling", "description": "Gracefully manage runtime errors." },
+          { "title": "try/catch/finally", "description": "Structured error handling." }
+        ],
+        "task": "Add input validation with custom error messages."
+      },
+      {
+        "day": 7,
+        "topics": [
+          { "title": "Performance Optimization", "description": "Improve speed and efficiency." },
+          { "title": "Debounce & Throttle", "description": "Control function execution rate." }
+        ],
+        "task": "Implement search with debounced input."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Tailwind CSS Pro",
+    "password": "tailwindpro",
+    "days": [
+      {
+        "day": 1,
+        "topics": [
+          { "title": "Utility-First CSS", "description": "Style directly in HTML with classes." },
+          { "title": "Responsive Design", "description": "Mobile-first breakpoints." }
+        ],
+        "task": "Build a responsive navbar."
+      },
+      {
+        "day": 2,
+        "topics": [
+          { "title": "Custom Themes", "description": "Extend colors, fonts, and spacing." },
+          { "title": "Dark Mode", "description": "Toggle light/dark themes." }
+        ],
+        "task": "Create a custom color palette with dark mode."
+      },
+      {
+        "day": 3,
+        "topics": [
+          { "title": "Flexbox & Grid", "description": "Layout systems in Tailwind." },
+          { "title": "Gap & Justify", "description": "Control spacing and alignment." }
+        ],
+        "task": "Build a 3-column responsive grid."
+      },
+      {
+        "day": 4,
+        "topics": [
+          { "title": "Forms & Inputs", "description": "Style forms with consistent design." },
+          { "title": "Focus States", "description": "Interactive feedback on hover/focus." }
+        ],
+        "task": "Design a beautiful contact form."
+      },
+      {
+        "day": 5,
+        "topics": [
+          { "title": "Animations", "description": "Add transitions and keyframes." },
+          { "title": "Hover Effects", "description": "Interactive UI feedback." }
+        ],
+        "task": "Animate a card on hover."
+      },
+      {
+        "day": 6,
+        "topics": [
+          { "title": "Plugins", "description": "Extend Tailwind with custom utilities." },
+          { "title": "Typography Plugin", "description": "Advanced text styling." }
+        ],
+        "task": "Add a custom gradient utility."
+      },
+      {
+        "day": 7,
+        "topics": [
+          { "title": "Production Optimization", "description": "Purge unused CSS." },
+          { "title": "JIT Mode", "description": "Just-In-Time compiler." }
+        ],
+        "task": "Deploy a production-ready Tailwind site."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "TypeScript Fundamentals",
+    "password": "ts101",
+    "days": [
+      {
+        "day": 1,
+        "topics": [
+          { "title": "Why TypeScript?", "description": "Static typing for safer code." },
+          { "title": "Type Inference", "description": "Automatic type detection." }
+        ],
+        "task": "Convert a JS file to TS with basic types."
+      },
+      {
+        "day": 2,
+        "topics": [
+          { "title": "Interfaces", "description": "Define object shapes." },
+          { "title": "Type Aliases", "description": "Custom type names." }
+        ],
+        "task": "Create a User interface with optional fields."
+      },
+      {
+        "day": 3,
+        "topics": [
+          { "title": "Functions & Generics", "description": "Reusable typed functions." },
+          { "title": "Generic Constraints", "description": "Limit generic types." }
+        ],
+        "task": "Write a generic fetch wrapper."
+      },
+      {
+        "day": 4,
+        "topics": [
+          { "title": "Union & Intersection", "description": "Combine types logically." },
+          { "title": "Literal Types", "description": "Specific string/number values." }
+        ],
+        "task": "Model a traffic light with union types."
+      },
+      {
+        "day": 5,
+        "topics": [
+          { "title": "Classes & Access Modifiers", "description": "OOP in TypeScript." },
+          { "title": "Abstract Classes", "description": "Base templates." }
+        ],
+        "task": "Build a Vehicle hierarchy with inheritance."
+      },
+      {
+        "day": 6,
+        "topics": [
+          { "title": "Modules & Namespaces", "description": "Organize large codebases." },
+          { "title": "Declaration Files", "description": "Type definitions for JS." }
+        ],
+        "task": "Create a utility module with exports."
+      },
+      {
+        "day": 7,
+        "topics": [
+          { "title": "Advanced Types", "description": "Conditional, mapped types." },
+          { "title": "Type Guards", "description": "Runtime type checking." }
+        ],
+        "task": "Build a type-safe API response handler."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Node.js & Express",
+    "password": "node2025",
+    "days": [
+      {
+        "day": 1,
+        "topics": [
+          { "title": "Node.js Runtime", "description": "JavaScript outside the browser." },
+          { "title": "NPM & Package.json", "description": "Manage dependencies." }
+        ],
+        "task": "Create a simple HTTP server with Node."
+      },
+      {
+        "day": 2,
+        "topics": [
+          { "title": "Express.js", "description": "Minimal web framework." },
+          { "title": "Routing", "description": "Handle HTTP methods and paths." }
+        ],
+        "task": "Build a REST API with GET/POST routes."
+      },
+      {
+        "day": 3,
+        "topics": [
+          { "title": "Middleware", "description": "Functions that process requests." },
+          { "title": "Body Parser", "description": "Parse JSON payloads." }
+        ],
+        "task": "Add logging middleware to all routes."
+      },
+      {
+        "day": 4,
+        "topics": [
+          { "title": "Error Handling", "description": "Centralized error management." },
+          { "title": "Async Errors", "description": "Handle promise rejections." }
+        ],
+        "task": "Create a custom error handler."
+      },
+      {
+        "day": 5,
+        "topics": [
+          { "title": "Environment Variables", "description": "Config with .env files." },
+          { "title": "CORS", "description": "Allow cross-origin requests." }
+        ],
+        "task": "Secure API with CORS and env vars."
+      },
+      {
+        "day": 6,
+        "topics": [
+          { "title": "Authentication", "description": "JWT-based login system." },
+          { "title": "Protected Routes", "description": "Restrict access." }
+        ],
+        "task": "Implement login with JWT tokens."
+      },
+      {
+        "day": 7,
+        "topics": [
+          { "title": "Deployment", "description": "Host on Render or Railway." },
+          { "title": "PM2", "description": "Process manager for production." }
+        ],
+        "task": "Deploy your API to the cloud."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "MongoDB Mastery",
+    "password": "mongo101",
+    "days": [
+      {
+        "day": 1,
+        "topics": [
+          { "title": "NoSQL vs SQL", "description": "Flexible schema design." },
+          { "title": "Documents & Collections", "description": "JSON-like data storage." }
+        ],
+        "task": "Install MongoDB and create a database."
+      },
+      {
+        "day": 2,
+        "topics": [
+          { "title": "CRUD Operations", "description": "Create, Read, Update, Delete." },
+          { "title": "Mongo Shell", "description": "Interactive query terminal." }
+        ],
+        "task": "Insert and query 10 sample users."
+      },
+      {
+        "day": 3,
+        "topics": [
+          { "title": "Query Operators", "description": "$gt, $in, $regex." },
+          { "title": "Projection", "description": "Select specific fields." }
+        ],
+        "task": "Find users older than 25 with projection."
+      },
+      {
+        "day": 4,
+        "topics": [
+          { "title": "Aggregation Pipeline", "description": "Data processing stages." },
+          { "title": "$group & $match", "description": "Filter and group data." }
+        ],
+        "task": "Calculate average age by city."
+      },
+      {
+        "day": 5,
+        "topics": [
+          { "title": "Indexes", "description": "Speed up queries." },
+          { "title": "Compound Indexes", "description": "Multi-field performance." }
+        ],
+        "task": "Create an index on email field."
+      },
+      {
+        "day": 6,
+        "topics": [
+          { "title": "Mongoose ODM", "description": "MongoDB modeling in Node.js." },
+          { "title": "Schemas & Models", "description": "Define data structure." }
+        ],
+        "task": "Connect Node.js app to MongoDB."
+      },
+      {
+        "day": 7,
+        "topics": [
+          { "title": "Atlas Cloud", "description": "MongoDB in the cloud." },
+          { "title": "Backup & Security", "description": "Protect your data." }
+        ],
+        "task": "Deploy database to MongoDB Atlas."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Git & GitHub",
+    "password": "gitmaster",
+    "days": [
+      {
+        "day": 1,
+        "topics": [
+          { "title": "Version Control", "description": "Track code changes." },
+          { "title": "Git Init & Config", "description": "Set up Git locally." }
+        ],
+        "task": "Initialize a repo and configure user."
+      },
+      {
+        "day": 2,
+        "topics": [
+          { "title": "Commit & Log", "description": "Save snapshots of code." },
+          { "title": "Staging Area", "description": "Prepare changes." }
+        ],
+        "task": "Make 3 meaningful commits."
+      },
+      {
+        "day": 3,
+        "topics": [
+          { "title": "Branching", "description": "Work on features independently." },
+          { "title": "Merge Conflicts", "description": "Resolve overlapping changes." }
+        ],
+        "task": "Create a feature branch and merge."
+      },
+      {
+        "day": 4,
+        "topics": [
+          { "title": "Remote Repos", "description": "Push to GitHub." },
+          { "title": "Clone & Pull", "description": "Sync with remote." }
+        ],
+        "task": "Push local repo to GitHub."
+      },
+      {
+        "day": 5,
+        "topics": [
+          { "title": "Pull Requests", "description": "Code review workflow." },
+          { "title": "GitHub Issues", "description": "Track bugs and tasks." }
+        ],
+        "task": "Open a PR and request review."
+      },
+      {
+        "day": 6,
+        "topics": [
+          { "title": "Rebase vs Merge", "description": "Clean commit history." },
+          { "title": "Git Ignore", "description": "Exclude files from tracking." }
+        ],
+        "task": "Rebase a feature branch."
+      },
+      {
+        "day": 7,
+        "topics": [
+          { "title": "GitHub Actions", "description": "Automate CI/CD." },
+          { "title": "Workflow Files", "description": "YAML automation scripts." }
+        ],
+        "task": "Set up auto-deploy on push."
+      }
+    ]
+  }
+]
+ 
